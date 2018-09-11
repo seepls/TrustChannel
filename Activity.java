@@ -31,6 +31,21 @@ public class Activity {
  
  // in progress/
     
+ private Random r ;
+ private int coinSide;
+ private int score;
+ priavte int highScore;
+ private MediaPlayer mp;
+ private int curSide =R.drawable.heads;
+ 
+ private String filename = "highScore";
+ protected void onCreate(Bundle savedInstanceState ){
+     super.onCreate(savedInstanceState);
+     setContentView (R.layout.activity_main); 
+     r = new Random();
+     
+ }
+    
     
 }
 
